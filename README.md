@@ -35,3 +35,4 @@ This is Swedish, so please choose other languages. You can add as many words/tra
 >
 > In addition to inserting the translated text into the HTML document, have the browser read the translated text to the user.
 >
+
