@@ -7,6 +7,7 @@ var Translator = (function(oldTranslator){
 		"Day": "Tag" 
 	}
 
+
 	oldTranslator.translateToGerman = function(inputPhrase){
 		inputPhrase.replace("Happy Independence Day", "Fröhlichen Unabhängigkeitstag");
 		inputPhrase.replace(/Happy|happy/g, "Glücklich");
