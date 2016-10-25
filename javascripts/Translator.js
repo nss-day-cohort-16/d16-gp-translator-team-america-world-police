@@ -7,10 +7,10 @@
 // 	return {
 // 		translate: function(phrase){
 // 			console.log("phrase", phrase);
-			
+
 // 			translation.push(phrase);
 // 			outputTranslation(translation);
-// 		}	
+// 		}
 // 	};
 // })();
 
@@ -19,7 +19,5 @@ var Translator = (function(){
 	return {
 
 	};
-
-	
 
 })();
