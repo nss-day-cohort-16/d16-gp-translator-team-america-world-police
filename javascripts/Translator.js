@@ -10,4 +10,4 @@ var Translator = (function(){
 
 			}	// translatedPhrase = foreignWord(english);
 	};
-});
+})();
