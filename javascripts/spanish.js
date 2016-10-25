@@ -7,12 +7,24 @@ var Translator = (function(oldTranslator){
 		"day": "dia"
 	};
 
-	oldTranslator.translateToSpanish = function(englishWord){
-		var spanishWord = spanishWords[englishWord];
-		console.log("spanishWord", spanishWord);
-		return spanishWord;
-	};
+	var translation = [];
 
+	oldTranslator.translateToSpanish = function(english){
+		var space = ' ';
+		var englishArr = english.split(space);
+		console.log(englishArr);
+
+		function translate(englishWord){
+			var spanish = spanishWords[englishWord.toLowerCase()];
+			translation.push(spanish);
+		}
+
+		englishArr.forEach(translate);
+
+		console.log("translation", translation);
+		return translation.join(' ');
+	}
+	
 	return oldTranslator;
 
 })(Translator);
