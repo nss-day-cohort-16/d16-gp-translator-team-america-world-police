@@ -1,3 +1,5 @@
+"use strict";
+
 var englishString;
 
 document.getElementById("translate").addEventListener("click", function(){
@@ -8,7 +10,7 @@ document.getElementById("translate").addEventListener("click", function(){
 		
 
 	if(document.getElementById("spanish").checked){
-		Translator.translateToSpanish(englishString)
+		Translator.translateToSpanish(englishString);
 
 	}
 });

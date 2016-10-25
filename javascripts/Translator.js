@@ -6,8 +6,8 @@ var Translator = (function(){
 	return {
 		translate: function(foreignWord){
 			console.log("foreignWord", foreignWord);
-			translatedPhrase = foreignWord(english);
-		}
-	}
-})();
+			return foreignWord;
 
+			}	// translatedPhrase = foreignWord(english);
+	};
+});
