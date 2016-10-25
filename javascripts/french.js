@@ -5,12 +5,12 @@ var Translator = (function(oldTranslator){
 		"happy": "joyeux",
 		"independence": "de l'Indépendance",
 		"day": "Jour"
-	}
+	};
 
 
 	return {
 		translateToFrench: function(translateFromEnglish){
-			return frenchIndependence
+			return frenchIndependence;
 		}
 	};
 
