@@ -19,23 +19,4 @@ var Translator = (function(oldTranslator){
 
 	return oldTranslator;
 
-
-
-
-
-
-
-
-
-
-	// oldTranslator.translateToGerman = function(inputPhrase){
-	// 	inputPhrase = inputPhrase.replace("Happy Independence Day", "Frohlichen Unabhangigkeitstag");
-	// 	inputPhrase = inputPhrase.replace(/Happy|happy/g, "Glucklich");
-	// 	inputPhrase = inputPhrase.replace(/Independence|Independence/g, "unabhangigkeit");
-	// 	inputPhrase = inputPhrase.replace(/Day|day/g, "tag");
-
-	// 		return inputPhrase;
-	// 	};
-	// return oldTranslator;
-
 })(Translator);
