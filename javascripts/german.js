@@ -9,10 +9,10 @@ var Translator = (function(oldTranslator){
 
 
 	oldTranslator.translateToGerman = function(inputPhrase){
-		inputPhrase.replace("Happy Independence Day", "Fröhlichen Unabhängigkeitstag");
-		inputPhrase.replace(/Happy|happy/g, "Glücklich");
-		inputPhrase.replace(/Independence|Independence/g, "unabhängigkeit");
-		inputPhrase.replace(/Day|day/g, "tag");
+		inputPhrase = inputPhrase.replace("Happy Independence Day", "Fröhlichen Unabhängigkeitstag");
+		inputPhrase = inputPhrase.replace(/Happy|happy/g, "Glücklich");
+		inputPhrase = inputPhrase.replace(/Independence|Independence/g, "unabhängigkeit");
+		inputPhrase = inputPhrase.replace(/Day|day/g, "tag");
 
 			return inputPhrase;
 		};
