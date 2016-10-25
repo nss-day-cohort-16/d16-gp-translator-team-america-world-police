@@ -9,9 +9,9 @@ var Translator = (function(oldTranslator){
 
 
 	oldTranslator.translateToGerman = function(inputPhrase){
-		inputPhrase = inputPhrase.replace("Happy Independence Day", "Fröhlichen Unabhängigkeitstag");
-		inputPhrase = inputPhrase.replace(/Happy|happy/g, "Glücklich");
-		inputPhrase = inputPhrase.replace(/Independence|Independence/g, "unabhängigkeit");
+		inputPhrase = inputPhrase.replace("Happy Independence Day", "Frohlichen Unabhangigkeitstag");
+		inputPhrase = inputPhrase.replace(/Happy|happy/g, "Glucklich");
+		inputPhrase = inputPhrase.replace(/Independence|Independence/g, "unabhangigkeit");
 		inputPhrase = inputPhrase.replace(/Day|day/g, "tag");
 
 			return inputPhrase;
