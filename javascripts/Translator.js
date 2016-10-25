@@ -1,13 +1,23 @@
 "use strict";
 
+// var Translator = (function(){
+
+// 	var translation = [];
+
+// 	return {
+// 		translate: function(phrase){
+// 			console.log("phrase", phrase);
+
+// 			translation.push(phrase);
+// 			outputTranslation(translation);
+// 		}
+// 	};
+// })();
+
 var Translator = (function(){
-	var translatedPhrase;
 
 	return {
-		translate: function(foreignWord){
-			console.log("foreignWord", foreignWord);
-			return foreignWord;
 
-			}	// translatedPhrase = foreignWord(english);
 	};
+
 })();

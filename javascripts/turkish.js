@@ -1,6 +1,7 @@
 "use strict";
 
 var Translator = (function(oldTranslator){
+
 	var turkishPhrase = {
 		"happy": "mutlu",
 		"independence": "bagimsizlik",
@@ -16,4 +17,5 @@ var Translator = (function(oldTranslator){
 	return oldTranslator;
 
 })(Translator);
+
 
