@@ -7,15 +7,35 @@ var Translator = (function(oldTranslator){
 		"Day": "Tag" 
 	}
 
-
 	oldTranslator.translateToGerman = function(inputPhrase){
-		inputPhrase = inputPhrase.replace("Happy Independence Day", "Frohlichen Unabhangigkeitstag");
-		inputPhrase = inputPhrase.replace(/Happy|happy/g, "Glucklich");
-		inputPhrase = inputPhrase.replace(/Independence|Independence/g, "unabhangigkeit");
-		inputPhrase = inputPhrase.replace(/Day|day/g, "tag");
+		inputPhrase = inputPhrase.replace("Happy", germanKey.Happy);
+		inputPhrase = inputPhrase.replace("happy", germanKey.Happy);
+		inputPhrase = inputPhrase.replace("Independence", germanKey.Independence);
+		inputPhrase = inputPhrase.replace("independence", germanKey.Independence);
+		inputPhrase = inputPhrase.replace("Day", germanKey.Day);
+		inputPhrase = inputPhrase.replace("day", germanKey.Day);
+		return inputPhrase;
+	}
 
-			return inputPhrase;
-		};
 	return oldTranslator;
+
+
+
+
+
+
+
+
+
+
+	// oldTranslator.translateToGerman = function(inputPhrase){
+	// 	inputPhrase = inputPhrase.replace("Happy Independence Day", "Frohlichen Unabhangigkeitstag");
+	// 	inputPhrase = inputPhrase.replace(/Happy|happy/g, "Glucklich");
+	// 	inputPhrase = inputPhrase.replace(/Independence|Independence/g, "unabhangigkeit");
+	// 	inputPhrase = inputPhrase.replace(/Day|day/g, "tag");
+
+	// 		return inputPhrase;
+	// 	};
+	// return oldTranslator;
 
 })(Translator);

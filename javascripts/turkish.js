@@ -8,9 +8,9 @@ var Translator = (function(oldTranslator){
 		"day": "gunu"
 	};
 		oldTranslator.translateToTurkish = function(english){
-			english = english.replace(/Happy|happy/g, "mutlu");
-			english = english.replace(/Independence|independence/g, "bagimsizlik");
-			english = english.replace(/Day|day/g, "gunu");
+			english = english.replace(/Happy|happy/g, turkishPhrase.happy);
+			english = english.replace(/Independence|independence/g, turkishPhrase.independence);
+			english = english.replace(/Day|day/g, turkishPhrase.day);
 			console.log("test", oldTranslator);
 			return english;
 		};

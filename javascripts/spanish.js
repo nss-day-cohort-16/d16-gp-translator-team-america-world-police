@@ -5,7 +5,7 @@ var Translator = (function(oldTranslator){
 		"happy": "feliz",
 		"independence": "de la independencia",
 		"day": "dia"
-	};
+z	};
 
 	var translation = [];
 
