@@ -8,9 +8,9 @@ var Translator = (function(oldTranslator){
 	};
 
 		oldTranslator.translateToFrench = function(phraseInput){
-			phraseInput = phraseInput.replace(/Happy|happy/g , "joyeux");
-			phraseInput = phraseInput.replace(/Independence|independence/g , " de l'Independance");
-			phraseInput = phraseInput.replace(/Day|day/g , " Jour");
+			phraseInput = phraseInput.replace(/Happy|happy/g , frenchIndependence.happy);
+			phraseInput = phraseInput.replace(/Independence|independence/g , frenchIndependence.independence);
+			phraseInput = phraseInput.replace(/Day|day/g , frenchIndependence.day);
 
 				return phraseInput;
 		};
