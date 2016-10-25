@@ -6,8 +6,8 @@
 
 	<body>
 	
-
-	<input type="text" id="input" placeholder="Enter a holiday greeting (e.g. Happy Independence Day">
+	<div id ="radios">
+	<input type="text" id="input" placeholder="Enter a holiday greeting (e.g. Happy Independence Day" required>
 
 <section>
 	<input type="radio" name="radioBtns" id="french">English to French<br>
@@ -15,18 +15,14 @@
 	<input type="radio" name="radioBtns" id="german">English to German<br>
 	<input type="radio" name="radioBtns" id="turkish">English to Turkish<br>
 </section>
+	</div>
 
 	<button id="translate">Translate</button>
 
-	<div id="output"></div>
-
-	<button>Translate</button>
-
-	<div>
-		<!-- Translated text -->
+	<div id="output">
+		
 	</div>
 
-		
 
 
 
@@ -42,6 +38,7 @@
 		<script src="javascripts/turkish.js"></script>
 		<script src="javascripts/spanish.js"></script>
 		<script src="javascripts/DOMHandler.js"></script>
+
 
 	</body>
 </html>

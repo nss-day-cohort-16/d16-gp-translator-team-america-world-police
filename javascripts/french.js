@@ -7,13 +7,16 @@ var Translator = (function(oldTranslator){
 		"day": "Jour"
 	};
 
+		oldTranslator.translateToFrench = function(phraseInput){
+			phraseInput = phraseInput.replace( /Happy | happy/g , "joyeux" );
+			phraseInput = phraseInput.replace( /Independence | independence/g , "de l'Indépendance" );
+			phraseInput = phraseInput.replace( /Day | day/g , "Jour" );
 
-	return {
-		translateToFrench: function(translateFromEnglish){
-			return frenchIndependence;
-		}
-	};
+				return phraseInput;
+		};
+	
 
+	return oldTranslator;
 
 })(Translator);
 
