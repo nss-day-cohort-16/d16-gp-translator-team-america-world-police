@@ -4,6 +4,6 @@ var Translator = (function(oldTranslator){
 
 	return {
 			
-	}
+	};
 
 })(Translator);
