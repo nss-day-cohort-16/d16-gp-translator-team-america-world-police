@@ -8,6 +8,6 @@ var Translator = (function(){
 			console.log("foreignWord", foreignWord);
 			translatedPhrase = foreignWord(english);
 		}
-	}
+	};
 })();
 
