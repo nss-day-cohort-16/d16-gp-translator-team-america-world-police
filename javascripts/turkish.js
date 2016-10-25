@@ -2,8 +2,6 @@
 
 var Translator = (function(oldTranslator){
 
-	return {
-			
-	};
+	return oldTranslator; 
 
 })(Translator);

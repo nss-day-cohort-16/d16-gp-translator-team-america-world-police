@@ -7,12 +7,16 @@ var Translator = (function(oldTranslator){
 		"day": "dia"
 	};
 
-	oldTranslator.translateToSpanish = function(englishWord){
-		var spanishWord = spanishWords[englishWord];
-		console.log("spanishWord", spanishWord);
-		return spanishWord;
-	};
+	var translation = [];
 
+	oldTranslator.translateToSpanish = function(english){
+		var spanishWord = spanishWords[english];
+		console.log("spanishWord", spanishWord);
+
+
+
+	};
+	
 	return oldTranslator;
 
 })(Translator);
