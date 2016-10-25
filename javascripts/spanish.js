@@ -12,7 +12,6 @@ var Translator = (function(oldTranslator){
 	oldTranslator.translateToSpanish = function(english){
 		var space = ' ';
 		var englishArr = english.split(space);
-		console.log(englishArr);
 
 		function translate(englishWord){
 			var spanish = spanishWords[englishWord.toLowerCase()];
@@ -20,11 +19,9 @@ var Translator = (function(oldTranslator){
 		}
 
 		englishArr.forEach(translate);
-
-		console.log("translation", translation);
 		return translation.join(' ');
 	}
-	
+
 	return oldTranslator;
 
 })(Translator);

@@ -11,7 +11,6 @@ var Translator = (function(oldTranslator){
 			english = english.replace(/Happy|happy/g, "mutlu");
 			english = english.replace(/Independence|independence/g, "bagimsizlik");
 			english = english.replace(/Day|day/g, "gunu");
-			console.log("test", oldTranslator);
 			return english;
 		};
 	return oldTranslator;
