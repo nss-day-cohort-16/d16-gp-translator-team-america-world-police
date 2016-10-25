@@ -7,7 +7,6 @@ var Translator = (function(oldTranslator){
 		"Day": "Tag" 
 	}
 
-	oldTranslator.test = "is this IIFE connected";
 
 	oldTranslator.translateToGerman = function(inputPhrase){
 		inputPhrase.replace("Happy Independence Day", "Fröhlichen Unabhängigkeitstag");
